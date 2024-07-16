@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JWT Authentication Example</title>
+   <script defer src="script.js"></script>
+</head>
+
+<body>
+   <h1>JWT Authentication Example</h1>
+   <p>username = user1, password = password1</p>
+   <div id="login">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+   </div>
+   <div id="user-info" style="display: none;">
+      <h2>User Info</h2>
+      <button onclick="getUserInfo()">Get User Info</button>
+      <p id="user-data"></p>
+   </div>
+</body>
+
+</html>
